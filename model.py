@@ -4,8 +4,8 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
 # Define paths for train and test datasets
-train_data_dir = 'C:/Users/gargp/OneDrive/Desktop/Driver Drowsiness Program/train'
-test_data_dir = 'C:/Users/gargp/OneDrive/Desktop/Driver Drowsiness Program/test'
+train_data_dir = r'C:\Users\gargp\OneDrive\Desktop\projects\Driver Drowsiness Program\train'
+test_data_dir = r'C:\Users\gargp\OneDrive\Desktop\projects\Driver Drowsiness Program\test'
 
 # Define parameters for ImageDataGenerator
 train_datagen = ImageDataGenerator(rescale=1./255)
